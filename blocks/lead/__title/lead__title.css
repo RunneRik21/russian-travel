@@ -4,7 +4,7 @@
   width: 100%;
   font-weight: 900;
   font-size: 96px;
-  line-height: 100px;
+  line-height: 104%;
   text-align: center;
   color: #ffffff;
   margin: 0;
@@ -12,14 +12,14 @@
   margin-block-end: 0;
   margin-inline-start: 0;
   margin-inline-end: 0;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 32px;
 }
 
 @media screen and (max-width: 620px) {
   .lead__title {
-    max-width: 288px;
     font-size: 40px;
-    line-height: 44px;
-    margin-bottom: 16px;
+    margin-bottom: 20px;
   }
 }

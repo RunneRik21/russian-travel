@@ -1,5 +1,6 @@
-.place__paragraphs {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
+@media screen and (max-width: 600px) {
+  .place__paragraphs {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
 }

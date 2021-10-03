@@ -14,18 +14,16 @@
 @media screen and (max-width: 1024px) {
   .place__paragraph {
     font-size: 18px;
+    margin-bottom: 26px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .place__paragraph {
     font-size: 16px;
-    line-height: 163%;
     margin-bottom: 25px;
   }
 }
-@media screen and (max-width: 600px) {
-  .place__paragraph {
-    font-size: 14px;
-    margin-left: 16px;
-  }
+
+.place__paragraph:last-child{
+  margin: 0;
 }
